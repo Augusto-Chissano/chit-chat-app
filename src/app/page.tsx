@@ -20,7 +20,7 @@ export default function Home() {
             </code>
             .
           </li>
-          <li>Powered by Vercel's AI SDK.</li>
+          <li>Powered by Vercel&apos;s AI SDK.</li> 
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
