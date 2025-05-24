@@ -1,4 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ChitChat App 💬
+
+</br>
+
+[![Next.js](https://img.shields.io/badge/Next.js-14.2.3-black?logo=next.js)](https://nextjs.org/)
+[![Vercel AI SDK](https://img.shields.io/badge/Vercel_AI_SDK-4.3.16-black?logo=vercel)](https://sdk.vercel.ai/)
+[![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
+
+<div align="center">
+  <img src="public/img/chitchat-prev.png" alt="ChitChat App Preview" />
+  <p>A simple chatbot built with Next.js and Vercel AI SDK</p>
+</div>
+
+## 🚀 Overview
+
+ChitChat is my exploration project into the Vercel AI SDK, featuring:
+- Real-time conversational AI
+- Clean, modern interface
+- Easy integration with popular LLMs
+
+## ✨ Features
+
+- 💬 Natural language conversations
+- 🌓 Light/dark mode support
+- ⚡ Fast responses with streaming
+
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Augusto-Chissano/chit-chat-app.git
+
+## 🛠️ Getting Started
+
+### Prerequisites
+- Node.js 18+
+- npm/yarn/pnpm/bun
+- PROVIDER_API_KEY
+
 
 ## Getting Started
 
@@ -16,21 +54,5 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Your feedback and contributions are welcome!
