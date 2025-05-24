@@ -16,7 +16,7 @@ export default function ChatPage() {
 
   const handleSubmit = async () => {
     if (!input.trim() || isLoading) return;
-    
+
     const userMessage = { role: 'user' as const, content: input };
     setMessages(current => [...current, userMessage]);
     setInput('');
@@ -74,23 +74,22 @@ export default function ChatPage() {
               className={`flex ${message.role === 'user' ? 'justify-end' : 'justify-start'}`}
             >
               <div
-                className={`max-w-[80%] rounded-lg px-4 py-2 ${
-                  message.role === 'user'
+                className={`max-w-[80%] rounded-lg px-4 py-2 ${message.role === 'user'
                     ? 'bg-foreground text-background'
                     : 'bg-black/[.05] dark:bg-white/[.06]'
-                }`}
+                  }`}
               >
                 {typeof message.content === 'string'
                   ? message.content
                   : message.content
-                      .filter(part => part.type === 'text')
-                      .map((part, partIndex) => (
-                        <div key={partIndex}>{part.text}</div>
-                      ))}
+                    .filter(part => part.type === 'text')
+                    .map((part, partIndex) => (
+                      <div key={partIndex}>{part.text}</div>
+                    ))}
               </div>
             </div>
           ))}
-          
+
           {isLoading && (
             <div className="flex justify-start">
               <div className="bg-black/[.05] dark:bg-white/[.06] rounded-lg px-4 py-2">
@@ -102,7 +101,7 @@ export default function ChatPage() {
               </div>
             </div>
           )}
-          
+
           <div ref={messagesEndRef} />
         </div>
       </div>
