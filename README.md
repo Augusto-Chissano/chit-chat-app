@@ -24,6 +24,12 @@ ChitChat is my exploration project into the Vercel AI SDK, featuring:
 - 🌓 Light/dark mode support
 - ⚡ Fast responses with streaming
 
+## 🧩 Tech Stack
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Vercel AI SDK
+
 
 ### Installation
 1. Clone the repository:
