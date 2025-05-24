@@ -45,7 +45,7 @@ export default function ChatPage() {
 
   return (
     <div className="flex flex-col min-h-screen bg-background">
-      <header className="border-b border-black/[.08] dark:border-white/[.145] p-4">
+      <header className="fixed top-0 left-0 right-0 border-b border-black/[.08] dark:border-white/[.145] p-4 bg-background z-10 backdrop-blur-sm bg-background/80">
         <div className="max-w-4xl mx-auto flex items-center gap-2">
           <Image
             className="dark:invert"
@@ -60,7 +60,13 @@ export default function ChatPage() {
         </div>
       </header>
 
-      <div className="flex-1 overflow-y-auto p-4 max-w-4xl w-full mx-auto">
+      <div
+        className="flex-1 overflow-y-auto p-4 max-w-4xl w-full mx-auto mt-16 mb-24"
+        style={{
+          marginTop: '4rem',
+          marginBottom: '6rem'
+        }}
+      >
         <div className="space-y-4">
           {messages.length === 0 && (
             <div className="text-center py-10 text-gray-500">
@@ -106,7 +112,7 @@ export default function ChatPage() {
         </div>
       </div>
 
-      <div className="border-t border-black/[.08] dark:border-white/[.145] p-4 bg-background">
+      <div className="fixed bottom-0 left-0 right-0 border-t border-black/[.08] dark:border-white/[.145] p-4 bg-background z-10">
         <div className="max-w-4xl mx-auto flex gap-2">
           <input
             type="text"
