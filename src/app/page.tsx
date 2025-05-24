@@ -19,7 +19,7 @@ export default function Home() {
               try now.
             </code>
           </li>
-          <li>AI-powered application.</li> 
+          <li>AI-powered application.</li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
